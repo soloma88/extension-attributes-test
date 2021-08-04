@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="MageCustom\Customer\Api\Data\AllowAddDescriptionInterface" type="MageCustom\Customer\Model\AllowAddDescription"/>
+    <type name="Magento\Customer\Api\CustomerRepositoryInterface">
+        <plugin name="magecustom_allow_add_description" type="MageCustom\Customer\Plugin\AllowAddDescriptionPlugin"/>
+    </type>
+</config>

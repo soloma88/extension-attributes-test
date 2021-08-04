@@ -1,0 +1,12 @@
+{
+    "customer_allow_add_description": {
+        "column": {
+            "customer_email": true,
+            "allow_add_description": true
+        },
+        "constraint": {
+            "PRIMARY": true,
+            "CSTR_ALLOW_ADD_DESCRIPTION_CSTR_EMAIL_CSTR_ENTT_EMAIL": true
+        }
+    }
+}
